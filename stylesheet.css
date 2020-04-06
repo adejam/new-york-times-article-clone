@@ -7,6 +7,7 @@ margin: 0;
 color: #333;
 background-color: white;
 line-height: 1;	
+font-family: nyt-imperial,georgia,'times new roman',times,serif;
 }
 
 @media (max-width: 1024px) {
@@ -39,7 +40,6 @@ width: 100%;
 .article_p{
 margin-bottom: 0.78125rem;
 margin-top: 0;
-font-family: nyt-imperial,georgia,'times new roman',times,serif;
 font-size: 1.125rem;
 line-height: 1.5625rem;
 margin-left: 20px;
@@ -152,6 +152,14 @@ margin-right: 0;
 width: 100%;
 max-width: 100%;
 }
+.ra_right{
+width: 80%;
+}
+
+.topic_div {
+max-width: 32%;
+flex-basis: 32%;
+}
 }
 
 @media (min-width: 740px) {
@@ -217,6 +225,42 @@ line-height: 1.875rem;
 margin-bottom: 0.9375rem;
 margin-top: 0;
 }
+
+.ra_right{
+width: 70%;
+}
+
+.ra_h2 {
+    font-size: 1rem;
+    line-height: 1.375rem;
+    padding-right: 0px;
+    padding-left: 0px;
+}
+
+.ra_main {
+width: 100%;
+justify-content: space-between;
+border-bottom: none;
+}
+
+.topic_div {
+max-width: 48%;
+}
+
+.ra_left{
+	width: calc(4 * (((100vw - 370px) - 15px) / 12) + 90px);
+    display: block;
+    margin-left: 30px;
+    max-width: 315px;
+    padding-left: 0px;
+    padding-right: 0px;
+}
+}
+
+@media (max-width: 740px) {
+.ra_left{
+    display: none;
+}
 }
 
 @media (min-width: 600px) {
@@ -236,6 +280,10 @@ margin-right: auto;
 .article_p{
 margin-left: auto;
 margin-right: auto;
+}
+
+.topic_div {
+width: 48%;
 }
 }
 .navbar{
@@ -268,7 +316,6 @@ position: absolute;
 border-radius: 3px;
 border: 0px;
 cursor: pointer;
-font-family: nyt-franklin,helvetica,arial,sans-serif;
 white-space: nowrap;
 vertical-align: middle;
 background-color: #fff;
@@ -286,7 +333,6 @@ display: inline-block;
 .search_button{
 border-radius: 3px;
 cursor: pointer;
-font-family: nyt-franklin,helvetica,arial,sans-serif;
 transition: ease 0.6s;
 white-space: nowrap;
 vertical-align: middle;
@@ -302,7 +348,6 @@ border: 0;
 
 .category_link{
 font-size: 14.25px;
-font-family: nyt-franklin,helvetica,arial,sans-serif;
 font-weight: 700;
 text-transform: uppercase;
 letter-spacing: 0.7px;
@@ -340,7 +385,6 @@ right: 10px;
 .button{
 border-radius: 3px;
 cursor: pointer;
-font-family: nyt-franklin,helvetica,arial,sans-serif;
 transition: ease 0.6s;
 white-space: nowrap;
 vertical-align: middle;
@@ -358,7 +402,6 @@ text-transform: uppercase;
 .avatar_button{
 border-radius: 3px;
 cursor: pointer;
-font-family: nyt-franklin,helvetica,arial,sans-serif;
 transition: ease 0.6s;
 white-space: nowrap;
 vertical-align: middle;
@@ -375,7 +418,6 @@ padding: 7px 9px 9px;
 
 .aside_nav{
 align-items: center;
-font-family: nyt-franklin,helvetica,arial,sans-serif;
 font-size: 11px;
 justify-content: space-around;
 padding: 13px 20px 12px;
@@ -414,7 +456,6 @@ margin-top: 0.3125rem;
 .article_title{
 position: relative;
 color: #121212;
-font-family: nyt-cheltenham,georgia,'times new roman',times,serif;
 font-weight: 700;
 font-style: italic;
 font-size: 1.9375rem;
@@ -443,7 +484,6 @@ max-width: 100%;
 
 .figcaption{
 color: #666;
-font-family: nyt-imperial,georgia,'times new roman',times,serif;
 margin: 10px 20px 0;
 text-align: left;
 }
@@ -451,7 +491,6 @@ text-align: left;
 .figcaption_main{
 margin-right: 7px;
 color: #666;
-font-family: nyt-imperial,georgia,'times new roman',times,serif;
 font-size: 0.875rem;
 line-height: 1.125rem;
 }
@@ -459,7 +498,6 @@ line-height: 1.125rem;
 .figcaption_aside{
 display: inline;
 color: #888;
-font-family: nyt-imperial,georgia,'times new roman',times,serif;
 line-height: 1.125rem;
 letter-spacing: 0.01em;
 font-size: 0.75rem;
@@ -492,7 +530,6 @@ letter-spacing: 0.02em;
 font-size: 0.875rem;
 line-height: 1.125rem;
 margin: 0;
-font-family: nyt-franklin,helvetica,arial,sans-serif;
 font-weight: 700;
 color: #333;
 }
@@ -523,7 +560,6 @@ padding-right: 1rem;
 
 .info_time{
 display: inline-block;
-font-family: nyt-franklin,helvetica,arial,sans-serif;
 font-weight: 500;
 color: #333;
 font-size: 0.8125rem;
@@ -541,7 +577,6 @@ flex-shrink: 0;
 color: #999;
 display: flex;
 flex-shrink: 0;
-font-family: nyt-franklin,helvetica,arial,sans-serif;
 font-size: 17px;
 margin-bottom: 5px;
 }
@@ -593,7 +628,6 @@ color: rgb(102, 102, 102);
 cursor: pointer;
 display: inline-flex;
 flex-direction: column;
-font-family: nyt-franklin, helvetica, arial, sans-serif;
 font-size: 0.75rem;
 font-weight: 500;
 height: 25px;
@@ -649,7 +683,6 @@ margin-bottom: 1rem;
 .article_p{
 margin-bottom: 0.78125rem;
 margin-top: 0;
-font-family: nyt-imperial,georgia,'times new roman',times,serif;
 font-size: 1.125rem;
 line-height: 1.5625rem;
 margin-left: auto;
@@ -667,7 +700,6 @@ max-width: 600px;
 
 .inflation_caption{
 color: #666;
-font-family: nyt-imperial,georgia,'times new roman',times,serif;
 margin: 10px 20px 0;
 text-align: left;
 margin-left: 0;
@@ -676,7 +708,6 @@ margin-left: 0;
 .inflation_caption_span1{
 	margin-right: 7px;
     color: #666;
-    font-family: nyt-imperial,georgia,'times new roman',times,serif;
     font-size: 0.875rem;
     line-height: 1.125rem;
 }
@@ -684,14 +715,12 @@ margin-left: 0;
 .inflation_caption_span2{
 display: inline;
 color: #888;
-font-family: nyt-imperial,georgia,'times new roman',times,serif;
 line-height: 1.125rem;
 letter-spacing: 0.01em;
 font-size: 0.75rem;
 }
 
 .article_footer{
-font-family: nyt-franklin, helvetica, arial, sans-serif;
 font-size: 0.75rem;
 line-height: 1rem;
 width: calc(100% - 40px);
@@ -722,7 +751,6 @@ text-decoration: underline;
 color: rgb(153, 153, 153);
 display: inline;
 margin-right: 16px;
-/*width: calc(100% - 40px);*/
 width: 330px;
 max-width: 600px;
 padding: 0px 1rem 0px 0px;
@@ -732,7 +760,6 @@ padding: 0px 1rem 0px 0px;
 background-color: rgb(86, 123, 149);
 color: white;
 display: block;
-font-family: nyt-franklin, helvetica, arial, sans-serif;
 font-size: 0.8125rem;
 font-weight: 600;
 letter-spacing: 0.05em;
@@ -754,7 +781,159 @@ transition: background-color 0.6s ease 0s;
 color: #999;
 display: flex;
 flex-shrink: 0;
-font-family: nyt-franklin,helvetica,arial,sans-serif;
 font-size: 17px;
 margin-bottom: 5px;
+}
+
+.related_articles{
+	padding-left: 3%;
+    padding-right: 3%;
+    display: flex;
+    background-color: rgb(255, 255, 255);
+    border-top: none;
+    margin-top: 45px;
+    padding-top: 20px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.ra_right{
+max-width: 852px;
+background-color: rgb(255, 255, 255);
+}
+
+.ra_right_topics{
+max-width: 852px;
+padding: 0px;
+}
+
+.ra_header{
+display: flex;
+justify-content: space-between;
+background-color: rgb(255, 255, 255);
+border-top: 1px solid rgb(0, 0, 0);
+}
+
+.ra_h2{
+background-color: white;
+box-sizing: border-box;
+font-weight: 700;
+font-size: 0.875rem;
+line-height: 1.25rem;
+max-width: 851.25px;
+padding: 17px 20px 0px;
+}
+
+.ra_main{
+display: flex;
+flex-wrap: wrap;
+max-width: 852px;
+padding-top: 15px;
+border-bottom: 1px solid rgb(226, 226, 226);
+}
+
+.topic_div{
+    display: flex;
+    flex-grow:1;
+flex-direction: column;
+}
+
+.topic_div1{
+padding: 0px 2px 20px;
+}
+
+.topic_divi{
+flex-grow: 1;
+display: flex;
+padding-top: 0px;
+border-bottom: none;
+}
+
+.topic_div_img{
+width: 100%;
+height: 100%;
+max-width: inherit;
+min-width: 60px;
+}
+
+.topic_div_fig{
+padding-bottom: 0px;
+margin: 0px;
+}
+
+.topic_div_fig img{
+	width: 100%;
+	height: auto;
+    max-width: 100%;
+    border: none;
+}
+
+.topic_div_fig figcaption{
+min-height: 12px;
+text-align: right;
+}
+
+.ra_span{
+color: rgb(153, 153, 153);
+font-size: 0.6em;
+line-height: 1.23em;
+}
+
+.ra_description{
+	max-width: 550px;
+    font-weight: 500;
+    padding-right: 1rem;
+    min-width: 100%;
+    color: rgb(51, 51, 51);
+    font-size: 1.125rem;
+    line-height: 1.375rem;
+    text-align: left;
+    flex-grow: 1;
+}
+
+.ra_description h3{
+	font-size: 1.125rem;
+    line-height: 22px;
+    color: rgb(18, 18, 18);
+    margin: 0px;
+}
+
+.ra_description span{
+font-weight: 500;
+    font-size: 0.75rem;
+    line-height: 1.25rem;
+    letter-spacing: 0.3px;
+    color: rgb(153, 153, 153);
+}
+
+.ra_left{
+
+font-size: 1rem;
+    font-weight: 700;
+    line-height: 1.375rem;
+    padding-bottom: 15px;
+    border-top: 1px solid rgb(0, 0, 0);
+}
+
+.ra_left h2{
+padding: 17px 0px 0px;
+}
+
+.ra_left_story{
+	margin-top: 15px;
+    border-top: 1px solid rgb(226, 226, 226);
+    list-style: none;
+}
+
+.ra_left_story h3{
+	border-bottom: 1px solid rgb(226, 226, 226);
+    padding: 15px 0px;
+    margin: 0px;
+}
+
+.ra_left_story a{
+	color: rgb(18, 18, 18);
+    font-size: 1.125rem;
+    font-weight: 500;
+    line-height: 1.375rem;
 }
