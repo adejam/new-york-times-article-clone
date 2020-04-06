@@ -1097,3 +1097,46 @@ margin: 2px 0px 0px;
 padding: 10px 0px 0px;
 border-top: 1px solid rgb(226, 226, 226);
 }
+
+.footer{
+	font-size: 11px;
+    text-align: center;
+    padding-bottom: 0px 3% 45px;
+}
+
+.footer_nav{
+border-top: 1px solid #ebebeb;
+padding-top: 9px;
+}
+
+.footer_ul{
+	    display: inline-block;
+    list-style: none;
+    margin: 0 0 15px;
+    padding: 0;
+}
+
+.footer_a{
+	color: #666;
+padding: 10px 0;
+text-decoration: none;
+white-space: nowrap;
+}
+
+.footer_ul_2{
+	    display: inline-block;
+    list-style: none;
+    line-height: 8px;
+    margin: 0 0 35px;
+    padding: 0;
+}
+
+.footer_li_1{
+	border-left: none;
+}
+.footer_li{
+	    
+    display: inline-block;
+    line-height: 20px;
+    padding: 0 10px;
+}
