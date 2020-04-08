@@ -7,18 +7,21 @@ This project demonstrates usage of CSS positioning techniques and CSS media quer
 
 ## Development (Running locally)
 - Clone the project
+
  ```
 git clone https://github.com/adejam/new-york-times-article-clone.git
 ```
 
 - Install Linter
-  ```
-  npm install stylelint stylelint-config-recommended --save-dev
+
+```
+npm install stylelint stylelint-config-recommended --save-dev
 ```
 
 - Run Linter
-  ```
-   npx stylelint *.css --fix
+
+```
+npx stylelint *.css --fix
 ```
  
 ## BUILT WITH
