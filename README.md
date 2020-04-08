@@ -8,12 +8,14 @@ This project demonstrates usage of CSS positioning techniques and CSS media quer
 ## Development (Running locally)
 - Clone the project
 
- ```
+```
 git clone https://github.com/adejam/new-york-times-article-clone.git
 ```
 
+- Enter Project Path
+
 ```
-cd-new-york-times-article-clone
+cd new-york-times-article-clone
 ```
 
 - Install Linter
@@ -48,7 +50,7 @@ copy the path to [index.html](https://adejam.github.io/new-york-times-article-cl
 
 - Linter
 
-- Npm
+- NPM
 
 
 ## Assignment Link
