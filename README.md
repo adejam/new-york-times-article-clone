@@ -1,4 +1,4 @@
-# new-york-times-article-clone
+# New York Times Article Clone
 The main objective of this project is to build a clone of new york times article webpage using Html and CSS.
 
 The project uses semantic html and CSS positioning and floating elements. CSS flexbox in conjunction with CSS float property is used for effective positioning of the elements. CSS media queries is also used for responsive design.
