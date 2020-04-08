@@ -32,6 +32,8 @@ npx stylelint *.css --fix
 
 - CSS Flexbox
 
+- CSS Media Quaries
+
 - Linter
 
 
