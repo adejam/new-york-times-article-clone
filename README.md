@@ -1,5 +1,5 @@
 # New York Times Article Clone
-The main objective of this project is to build a clone of new york times article webpage using Html and CSS.
+The main objective of this project is to build a clone of [New york times article page](https://www.nytimes.com/2014/03/18/science/space/detection-of-waves-in-space-buttresses-landmark-theory-of-big-bang.html?_r=0) using Html and CSS.
 
 The project uses semantic html and CSS positioning and floating elements. CSS flexbox in conjunction with CSS float property is used for effective positioning of the elements. CSS media queries is also used for responsive design.
 
@@ -12,6 +12,10 @@ This project demonstrates usage of CSS positioning techniques and CSS media quer
 git clone https://github.com/adejam/new-york-times-article-clone.git
 ```
 
+```
+cd-new-york-times-article-clone
+```
+
 - Install Linter
 
 ```
@@ -21,8 +25,16 @@ npm install stylelint stylelint-config-recommended --save-dev
 - Run Linter
 
 ```
+npx stylelint *.css
+```
+
+- Fix Linter Issues
+
+```
 npx stylelint *.css --fix
 ```
+
+copy the path to [index.html](https://adejam.github.io/new-york-times-article-clone/index.html) and paste it in the web browser to see the project
  
 ## Technology Used
 
@@ -36,9 +48,8 @@ npx stylelint *.css --fix
 
 - Linter
 
+- Npm
 
-## Webpage
-- [New york times article page](https://www.nytimes.com/2014/03/18/science/space/detection-of-waves-in-space-buttresses-landmark-theory-of-big-bang.html?_r=0)
 
 ## Assignment Link
 - [Assignment link](https://www.theodinproject.com/courses/html5-and-css3/lessons/positioning-and-floating-elements)
