@@ -4,6 +4,22 @@ The main objective of this project is to build a clone of new york times article
 The project uses semantic html and CSS positioning and floating elements. CSS flexbox in conjunction with CSS float property is used for effective positioning of the elements. CSS media queries is also used for responsive design.
 
 This project demonstrates usage of CSS positioning techniques and CSS media queries.
+
+## Development (Running locally)
+- Clone the project
+ ```
+git clone https://github.com/adejam/new-york-times-article-clone.git
+```
+
+- Install Linter
+  ```
+  npm install stylelint stylelint-config-recommended --save-dev
+```
+
+- Run Linter
+  ```
+   npx stylelint *.css --fix
+```
  
 ## BUILT WITH
 
