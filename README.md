@@ -24,13 +24,15 @@ npm install stylelint stylelint-config-recommended --save-dev
 npx stylelint *.css --fix
 ```
  
-## BUILT WITH
+## Technology Used
 
 - HTML
 
 - CSS
 
 - CSS Flexbox
+
+- Linter
 
 
 ## Webpage
@@ -48,7 +50,9 @@ npx stylelint *.css --fix
 
 ## Author
 ### Adeleye Jamiu
-- [@adejam](http://github.com/adejam)
+- Github: [@adejam](http://github.com/adejam)
+- Twitter: [@adeleye_oj](https://twitter.com/Adeleye_oj)
+- LinkedIn: [@adeleye-jamiu](www.linkedin.com/in/adeleye-jamiu-6747061a3)
 
 ## Contributing
 Contributions, issues and feature requests are welcome!
