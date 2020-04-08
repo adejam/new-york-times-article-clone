@@ -48,23 +48,23 @@ npx stylelint *.css --fix
 ![New york times article page clone](/images/article.png)
 
 
-## Author
+## :bust_in_silhouette: Author
 ### Adeleye Jamiu
 - Github: [@adejam](http://github.com/adejam)
 - Twitter: [@adeleye_oj](https://twitter.com/Adeleye_oj)
 - LinkedIn: [@adeleye-jamiu](www.linkedin.com/in/adeleye-jamiu-6747061a3)
 
-## Contributing
+## :handshake: Contributing
 Contributions, issues and feature requests are welcome!
 
 
 ## Show Your Support
-Give a star if you like this project!
+Give a :star2: if you like this project!
 
 
 ## Acknowledgments
 - [@bolah2009](http://github.com/bolah2009)
 
-## License
+## :memo: License
 
 AdejamTech License
