@@ -54,7 +54,7 @@ npx stylelint *.css --fix
 ### Adeleye Jamiu
 - Github: [@adejam](http://github.com/adejam)
 - Twitter: [@adeleye_oj](https://twitter.com/Adeleye_oj)
-- LinkedIn: [@adeleye-jamiu](www.linkedin.com/in/adeleye-jamiu-6747061a3)
+- LinkedIn: [@adeleye-jamiu](https://linkedin.com/in/adeleye-jamiu-6747061a3)
 
 ## :handshake: Contributing
 Contributions, issues and feature requests are welcome!
