@@ -44,9 +44,9 @@ copy the path to [index.html](https://adejam.github.io/new-york-times-article-cl
 
 - CSS
 
-- CSS Flexbox
+   - CSS Flexbox
 
-- CSS Media Quaries
+   - CSS Media Quaries
 
 - Linter
 

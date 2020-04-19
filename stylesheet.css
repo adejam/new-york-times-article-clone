@@ -4,7 +4,6 @@ body {
   height: 100%;
   margin: 0;
   color: #333;
-  background-color: white;
   line-height: 1;
   font-family: nyt-imperial, 'times new roman', times, serif;
 }
@@ -16,20 +15,14 @@ body {
 }
 
 @media (max-width: 1024px) {
-  .search_div {
-    display: none;
-  }
-
-  .category {
+  .search_div, 
+  .category, 
+   .button{
     display: none;
   }
 
   .buttons_div {
     top: 6px;
-  }
-
-  .button {
-    display: none;
   }
 
   .aside_nav {
@@ -137,10 +130,7 @@ body {
     padding: 11px 12px 8px;
   }
 
-  .avatar_button {
-    display: none;
-  }
-
+  .avatar_button,
   .aside_nav {
     display: none;
   }
@@ -165,8 +155,7 @@ body {
   }
 
   .article_p {
-    margin-left: 0;
-    margin-right: 0;
+    margin: 0px;
     width: 100%;
     max-width: 100%;
   }
@@ -214,7 +203,7 @@ body {
   .fixed_bottom_nav_div_right_inner_p {
     display: block;
     height: 55px;
-    line-height: calc(58px);
+    line-height: 58px;
   }
 }
 
@@ -424,13 +413,11 @@ body {
   }
 
   .article_title {
-    margin-left: auto;
-    margin-right: auto;
+    margin: 0px auto 1rem;
   }
 
   .article_p {
-    margin-left: auto;
-    margin-right: auto;
+    margin: 0px auto 0.78125rem;
   }
 
   .topic_div {
@@ -840,10 +827,7 @@ a {
   min-width: 24px;
   position: relative;
   text-transform: uppercase;
-  border-width: initial;
-  border-style: none;
-  border-color: initial;
-  border-image: initial;
+  border:none;
   overflow: visible;
   padding: 0 0 4px;
 }
@@ -857,10 +841,7 @@ a {
   position: relative;
   width: auto;
   background: transparent;
-  border-width: 1px;
-  border-style: solid;
-  border-color: rgb(102, 102, 102);
-  border-image: initial;
+  border: 1px solid rgb(102, 102, 102);
   border-radius: 4px;
   padding: 4px;
 }
@@ -880,12 +861,9 @@ a {
 }
 
 .article_p {
-  margin-bottom: 0.78125rem;
-  margin-top: 0;
   font-size: 1.125rem;
   line-height: 1.5625rem;
-  margin-left: auto;
-  margin-right: auto;
+  margin: 0px auto 0.78125rem;
   width: calc(100% - 40px);
   max-width: 600px;
 }
@@ -975,10 +953,7 @@ a {
   margin-right: auto;
   text-transform: uppercase;
   width: 100%;
-  border-width: 1px;
-  border-style: solid;
-  border-color: rgb(50, 104, 145);
-  border-image: initial;
+  border-width: 1px solid rgb(50, 104, 145);
   border-radius: 3px;
   padding: 5px 0;
   transition: background-color 0.6s ease 0s;
