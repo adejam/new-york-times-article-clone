@@ -5,7 +5,7 @@ body {
   margin: 0;
   color: #333;
   line-height: 1;
-  font-family: nyt-imperial, 'times new roman', times, serif;
+  font-family: "times new roman", times, serif;
 }
 
 @media (min-width: 1280px) {
@@ -30,18 +30,14 @@ body {
   }
 
   .article_div_c {
-    margin-left: auto;
-    margin-right: auto;
+	margin:0 auto;
     width: 100%;
   }
 
   .article_p {
-    margin-bottom: 0.78125rem;
-    margin-top: 0;
+    margin: 0 20px 0.78125rem;
     font-size: 1.125rem;
     line-height: 1.5625rem;
-    margin-left: 20px;
-    margin-right: 20px;
     width: calc(100% - 40px);
     max-width: 600px;
   }
