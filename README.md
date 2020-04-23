@@ -37,7 +37,7 @@ npx stylelint *.css --fix
 ```
 
 copy the path to [index.html](https://adejam.github.io/new-york-times-article-clone/index.html) and paste it in the web browser to see the project
- 
+
 ## Technology Used
 
 - HTML
@@ -48,9 +48,9 @@ copy the path to [index.html](https://adejam.github.io/new-york-times-article-cl
 
    - CSS Media Quaries
 
-- Linter
+- [stylint](https://stylelint.io/)
 
-- NPM
+- [NPM](https://www.npmjs.com/)
 
 
 ## Assignment Link
@@ -79,6 +79,14 @@ Give a :star2: if you like this project!
 
 ## Acknowledgments
 - [@bolah2009](http://github.com/bolah2009)
+
+- [The Odin Project](https://www.theodinproject.com/courses/html5-and-css3/lessons/positioning-and-floating-elements)
+
+- [New york times article page](https://www.nytimes.com/2014/03/18/science/space/detection-of-waves-in-space-buttresses-landmark-theory-of-big-bang.html?_r=0)
+
+- [W3c](https://www.w3.org/)
+
+
 
 ## :memo: License
 
